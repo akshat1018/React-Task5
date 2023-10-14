@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './App.css';
-import Header from './Header';
-import DateInput from './DateInput';
-import CalculateButton from './CalculateButton';
-import AgeDisplay from './AgeDisplay';
+import './components/style.css';
+import Header from './components/Header';
+import DateInput from './components/DateInput';
+import CalculateButton from './components/CalculateButton';
+import AgeDisplay from './components/AgeDisplay';
 
 function App() {
   const [dateOfBirth, setDateOfBirth] = useState('');
